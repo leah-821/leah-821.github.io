@@ -1,0 +1,151 @@
+.base-background {
+    background-color: #f7f9fc;
+    width: 100%;
+    height: 1500px;
+}
+
+.white-box {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.header-main {
+    display: flex;
+}
+
+.header-main img {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.header-main h3 {
+    font-size: 20px;
+    margin: 30px auto 0 10px;
+    margin-left: 10px;
+}
+
+.header-main p {
+    font-size: 12px;
+    margin: 0 auto 8px 10px;
+}
+
+.location {
+    color: #6fbaf8;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.btn-blue {
+    font-size: 13px;
+    margin: 10px;
+    width: 100px;
+}
+
+.header-sub {
+    display: flex;
+    margin: 30px 10px;
+    font-size: 12px;
+}
+
+.header-info {
+    margin-left: 20px;
+}
+
+.bar {
+    position: relative;
+    height: 30px;
+}
+
+.bar-line {
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(226, 222, 222, 0.584);
+    border-radius: 100px;
+}
+
+
+.bar span {
+    font-size: 13px;
+    color: #6fbaf8;
+}
+
+
+.bar-line-selected {
+    height: 3px;
+    position: absolute;
+    left: 0;
+    width: 65px;
+    bottom: 0;
+    background-color: #6fbaf8;
+    border-radius: 100px;
+}
+
+.title-text {
+    margin: 20px 10px;
+}
+
+.sub-text {
+    margin: 0 10px 25px 10px;
+    font-size: 12px;
+}
+
+.divide-line {
+    height: 2px;
+    margin: auto 10px;
+    background-color: rgba(226, 222, 222, 0.584);
+    border-radius: 100px;
+}
+
+.sub-text span {
+    display: inline-block;
+    border: 2px solid rgba(226, 222, 222, 0.584);
+    border-radius: 20px;
+    padding: 5px 16px;
+    font-size: 11px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.sign-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-footer i {
+    color: #6fbaf8;
+    margin-top: 30px;
+}
+
+.sign-footer p {
+    margin-bottom: 5px;
+}
+
+.gray-box {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.gray-box img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.divide-line-column {
+    width: 3px;
+    padding: 0px;
+    margin-right: 20px;
+    height: 190px;
+    background-color: rgba(226, 222, 222, 0.584);
+    margin-top: 10px;
+    border-radius: 10px;
+}
