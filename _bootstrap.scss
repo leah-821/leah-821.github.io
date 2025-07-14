@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin bootstrap($cols) {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    width: percentage($cols / 12);
+}
+
+@for $colNum from 1 through 12 {
+    .col-#{$colNum} {
+        @include bootstrap($colNum);
+    }
+}
+
+@media (min-width: 768px) {
+    @for $colNum from 1 through 12 {
+        .col-md-#{$colNum} {
+            @include bootstrap($colNum);
+        }
+    }
+}
